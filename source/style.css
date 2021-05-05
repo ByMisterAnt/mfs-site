@@ -1,0 +1,82 @@
+main
+{
+  background-color: #151515;
+}
+.navbar_icon
+{
+  width: 20%;
+  padding: 1%;
+}
+.our_label
+{
+  font-size: x-large;
+  color: white;
+}
+div.bg-image
+{
+  text-align: center;
+
+  background-image: url('../source/img/pilot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 2%;
+}
+.bg_text
+{
+  padding-top: 25%;
+  color: white;
+  font-size: xxx-large;
+}
+
+footer
+{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: -2%;
+  background-color: black;
+}
+hr
+{
+  background-color: black;
+}
+.enter
+{
+  height: 4vh;
+}
+
+@media screen and (max-width: 600px) {
+  div.bg-image{
+     background-size: cover;
+     width: 100%;
+     height: 40vh;
+     }
+     footer
+     {
+       margin-top: -3%;
+       padding:0%;
+     }
+     .our_label
+     {
+       font-size: large;
+     }
+     .bg_text
+     {
+       padding-top: 15%;
+       color: white;
+       font-size: x-large;
+     }
+@media screen and (max-width: 340px) {
+  div.bg-image{
+     background-size: contain;
+     width: 100%;
+     height: 40vh;
+  }
+  footer
+  {
+    margin-top: -3%;
+  }
+}
