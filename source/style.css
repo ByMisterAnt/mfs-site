@@ -1,3 +1,7 @@
+body
+{
+  background-color: black;
+}
 main
 {
   background-color: #151515;
@@ -12,6 +16,7 @@ main
   font-size: x-large;
   color: white;
 }
+
 div.bg-image
 {
   text-align: center;
@@ -25,9 +30,10 @@ div.bg-image
 }
 .bg_text
 {
+    font-family: 'Times New Roman', Times, serif;
   padding-top: 25%;
   color: white;
-  font-size: xxx-large;
+  font-size: xx-large !important;
 }
 
 footer
@@ -37,7 +43,7 @@ footer
   padding-left: 5%;
   padding-right: 5%;
   margin-top: -2%;
-  background-color: black;
+  background-color: #121212;
 }
 hr
 {
@@ -47,10 +53,19 @@ hr
 {
   height: 4vh;
 }
-
+@media screen and (min-width: 1000px) {
+  .coll
+  {
+    margin-top: 10%;
+  }
+}
 @media screen and (max-width: 600px) {
+  .coll
+  {
+    margin-top: 0%;
+  }
   div.bg-image{
-     background-size: cover;
+     background-size: contain;
      width: 100%;
      height: 40vh;
      }
@@ -70,6 +85,10 @@ hr
        font-size: x-large;
      }
 @media screen and (max-width: 340px) {
+  .coll
+  {
+    margin-top: 0%;
+  }
   div.bg-image{
      background-size: contain;
      width: 100%;
